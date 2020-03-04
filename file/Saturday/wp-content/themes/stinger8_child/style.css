@@ -1,0 +1,113 @@
+/*
+ Template:stinger8
+ Theme Name:stinger8_child
+ Author shimo
+ */ 
+
+
+
+
+p.menu_underh2:before {
+	position: absolute;
+	left: 5px;
+	top: 6px;
+	content: '\f061';
+	color: #aaa;
+	font-family: 'FontAwesome';
+	font-size: 12px;
+	line-height: 1;
+}
+
+p.menu_underh2 {
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #888;
+	position: relative;
+	padding-left: 25px;
+	color: #333 !important;
+}
+
+
+#side .textwidget ul li a {
+	color: #444;
+	text-decoration: none;
+}
+
+
+
+
+
+
+.footerlogo {
+	
+	font-size: 10%;
+}
+
+
+/*
+#header-l .sitename{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+
+#header-l .image {
+	position: relative;
+	width: 100%;
+}
+*/
+
+/*
+.header_image {
+	position: relative;
+	width: 100%;
+}
+*/
+
+#header-l {
+	position: relative;
+	width: 100%;
+	background-color: #EDAE0E;
+}
+
+.sitetitle {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	font-size: 50px;
+}
+
+
+@media print, screen and (min-width: 960px) {
+	/*----------------------
+	 PC layout
+	 ----------------------*/ 
+
+	#contentInner {
+		float: right;
+		width: 100%;
+		margin-right: -320px;
+	}
+
+	.st-main {
+		margin-left: 0px;
+		background-color: #fff;
+		border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		padding: 30px 50px 30px;
+	}
+
+	#side .st-aside {
+		float: left;
+		width: 300px;
+		padding: 0px;
+	}
+}
+
+@media only screen and (max-width: 959px) {
+	
+
+}
+
+
