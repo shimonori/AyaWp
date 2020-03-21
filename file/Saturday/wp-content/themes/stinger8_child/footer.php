@@ -17,6 +17,7 @@ wp_nav_menu( $defaults );
 
 		<div class="footer-c">
 			<!-- フッターのメインコンテンツ -->
+			<hr width="95%">
 			<p class="footerlogo">
 			<!-- ロゴ又はブログ名 -->
 				<?php if ( !is_home() || !is_front_page() ) { ?>

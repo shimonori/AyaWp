@@ -38,7 +38,7 @@
 <header>
 <div id="headbox-bg">
 <div class="clearfix" id="headbox">
-<?php get_template_part( 'st-accordion-menu' ); //アコーディオンメニュー ?>
+<?php get_template_part( 'st-header-menu' ); //アコーディオンメニュー ?>
 <div id="header-l">
 <!-- image -->
 <div class="header_image">
