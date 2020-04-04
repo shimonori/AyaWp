@@ -62,7 +62,7 @@
 				<?php bloginfo( 'description' ); ?>
 				</p>
 				<?php } ?>
-				
+
 				</div>
 				</div>
 				<!-- /#header-l -->

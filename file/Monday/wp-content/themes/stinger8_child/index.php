@@ -79,6 +79,9 @@
 					</div>
 
 					<div class="mainbox">
+							<div class="news">
+								<p>news</p>
+							</div>
 							<div class="entry-content">
 								<?php the_content(); //本文 ?>
 							</div>

@@ -33,7 +33,10 @@
 						<?php } ?>
 
 					<div class="mainbox">
-
+							<div class="news">
+							<h1>news</h1>
+							<p>honbun</p>
+							</div>
 							<div class="entry-content">
 								<?php the_content(); //本文 ?>
 							</div>
