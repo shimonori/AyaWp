@@ -32,11 +32,27 @@ p.menu_underh2 {
 	text-decoration: none;
 }
 
+
+
+/* news design */
 .news {
-	padding: 0.5em 1em;
+	position: relative;
 	margin: 2em 0;
+	padding: 0.5em 1em;
+	border: solid 3px #95ccff;
+	border-radius: 8px;
+}
+.news .news-title {
+	position: absolute;
+	display: inline-block;
+	top: -13px;
+	left: 10px;
+	padding: 0 9px;
+	line-height: 1;
+	font-size: 19px;
+	background: #FFF;
+	color: #95ccff;
 	font-weight: bold;
-	border: solid 3px #000000;
 }
 .news p {
 	margin: 0;
@@ -45,9 +61,8 @@ p.menu_underh2 {
 
 
 
-
-.footerlogo {
-	
+/* footer logo */
+.footerlogo {	
 	font-size: 10%;
 }
 
@@ -85,7 +100,6 @@ p.menu_underh2 {
 	left: 10%;
 	font-size: 50px;
 }
-
 hr {
 	height: 0;
 	margin: 0 auto;

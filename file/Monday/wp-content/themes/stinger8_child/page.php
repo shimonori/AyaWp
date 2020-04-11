@@ -33,7 +33,13 @@
 						<?php } ?>
 
 					<div class="mainbox">
-
+							<?php if(is_page( '49' )): ?>
+							<div class="news">
+							<span class="news-title">News</span>
+							<p>news</p>
+							</div>
+							<?php else: ?>
+							<?php endif; ?>
 							<div class="entry-content">
 								<?php the_content(); //本文 ?>
 							</div>
