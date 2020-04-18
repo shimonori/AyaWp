@@ -42,7 +42,7 @@
 <div id="header-l">
 <!-- image -->
 <div class="header_image">
-<img src="http://aya-syosi.com/OfficeHp/wp-content/uploads/2019/12/cropped-thNF7AM0ZA-1.jpg" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+<img src="https://aya-syosi.com/OfficeHp/wp-content/uploads/2019/12/cropped-thNF7AM0ZA-1.jpg" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 </div>
 <div class="sitetitle">
 <!-- ロゴ又はブログ名 -->

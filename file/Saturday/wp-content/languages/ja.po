@@ -1734,7 +1734,7 @@ msgstr "追加:"
 msgid "Whether posts of this status may have floating published dates."
 msgstr "このステータスの投稿に浮動公開日を設定可能かどうか。"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:392
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:415
 msgid "Sorry, you are not allowed to delete revisions of this post."
 msgstr "この投稿のリビジョンを削除する権限がありません。"
 
@@ -11753,7 +11753,7 @@ msgstr "一括選択"
 
 #. translators: %s: Taxonomy label, %l: List of terms formatted as per
 #. $term_template.
-#: wp-includes/taxonomy.php:4341
+#: wp-includes/taxonomy.php:4343
 msgid "%s: %l."
 msgstr "%s: %l。"
 
@@ -15530,7 +15530,7 @@ msgstr "スタイルシートが見つかりません。"
 msgid "The parent theme is missing. Please install the \"%s\" parent theme."
 msgstr "親テーマが見つかりません。「%s」の親テーマをインストールしてください。"
 
-#: wp-includes/taxonomy.php:4414
+#: wp-includes/taxonomy.php:4416
 msgid "Invalid object ID."
 msgstr "無効なオブジェクト ID。"
 
